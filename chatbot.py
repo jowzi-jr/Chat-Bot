@@ -62,7 +62,7 @@ if user_prompt:
         conversation += f"{role}: {content}\n"
 
     prompt = f"""
-    You are a helpful AI tutor.
+    You are DAASAN.
     Answer clearly and simply.
 
     Conversation so far:
