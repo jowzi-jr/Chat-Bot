@@ -62,7 +62,7 @@ if user_prompt:
         conversation += f"{role}: {content}\n"
 
     prompt = f"""
-    You are DAASAN.
+    You are DAASAN (definitely not an AI).
     Answer clearly and simply.
 
     Conversation so far:
