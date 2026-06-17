@@ -7,14 +7,14 @@ from google import genai
 
 st.set_page_config(
     page_title="Gemini Chatbot",
-    page_icon="💬",
+    page_icon="🗿",
     layout="centered"
 )
 
-st.title("💬 Gemini AI Chatbot")
+st.title("🗿 Chat With Mee-DAASAN")
 
 st.write(
-    "Ask any question. The chatbot uses Gemini API to generate responses."
+    "Talk to DAASAN,definetely doesnt use GOOGLE's API to respond back."
 )
 
 # -----------------------------------------
@@ -42,7 +42,7 @@ for message in st.session_state.messages:
 # User input
 # -----------------------------------------
 
-user_prompt = st.chat_input("Type your question here...")
+user_prompt = st.chat_input("Enthaa parayan ullath")
 
 if user_prompt:
     # Store and display user message
